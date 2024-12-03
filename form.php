@@ -142,7 +142,17 @@
 
             <button class="border-0 rounded text-white bg-primary px-2 py-1" type="submit" name="submitBtn">Submit</button>
         </form>
+        <br> <br>
+
+        <?php 
+            echo $successMessage ?? null;
+        ?>
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    
+
   </body>
 </html>
+
